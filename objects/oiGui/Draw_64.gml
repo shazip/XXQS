@@ -1,0 +1,9 @@
+_w=x-getXView();
+_h=y-getYView();
+if(useDp){
+	_s=4;
+}else{
+	_s=1;
+}
+_ws=_w*_s;
+_hs=_h*_s;

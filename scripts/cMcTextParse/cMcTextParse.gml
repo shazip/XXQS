@@ -1,0 +1,18 @@
+var tmp=argument0;
+tmp=string_replace_all(tmp,"§0","[$="+string(c_black)+"]");
+tmp=string_replace_all(tmp,"§1","[$="+string(c_blue)+"]");
+tmp=string_replace_all(tmp,"§2","[$="+string(c_green)+"]");
+tmp=string_replace_all(tmp,"§3","[$="+string(c_teal)+"]");
+tmp=string_replace_all(tmp,"§4","[$="+string(c_red)+"]");
+tmp=string_replace_all(tmp,"§5","[$="+string(c_purple)+"]");
+tmp=string_replace_all(tmp,"§6","[$="+string(c_orange)+"]");
+tmp=string_replace_all(tmp,"§7","[$="+string(c_ltgray)+"]");
+tmp=string_replace_all(tmp,"§8","[$="+string(c_gray)+"]");
+tmp=string_replace_all(tmp,"§9","[$="+string(make_color_rgb(65,105,225))+"]");
+tmp=string_replace_all(tmp,"§a","[$="+string(c_lime)+"]");
+tmp=string_replace_all(tmp,"§b","[$="+string(c_aqua)+"]");
+tmp=string_replace_all(tmp,"§c","[$="+string(make_color_rgb(240,128,128))+"]");
+tmp=string_replace_all(tmp,"§d","[$="+string(c_fuchsia)+"]");
+tmp=string_replace_all(tmp,"§e","[$="+string(c_yellow)+"]");
+tmp=string_replace_all(tmp,"§f","[$="+string(c_white)+"]");
+return tmp;

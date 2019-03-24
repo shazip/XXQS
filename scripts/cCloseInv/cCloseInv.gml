@@ -1,0 +1,9 @@
+if(global.iThePlayer.openOtherInv){
+	cCloseChest();
+}
+cLog("oThePlayer.Step","将背包数据发送给服务器.");
+cPlayer_sendInventory();
+global.iThePlayer.openInv=false;
+if(global.iThePlayer.upBuild!=noone){
+	global.iThePlayer.upBuild=noone;
+}

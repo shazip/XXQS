@@ -1,0 +1,9 @@
+hp-=1;
+global.iThePlayer.energy-=1;
+global.iThePlayer.hot+=1;
+if(hp<=0){
+	global.iThePlayer.harryTarget=noone;
+	global.iThePlayer.harryMode=false;
+	instance_destroy();
+}
+alarmRun=false;

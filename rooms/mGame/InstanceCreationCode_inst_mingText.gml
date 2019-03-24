@@ -1,0 +1,2 @@
+layout="infoLayout";
+rid="mingText";
